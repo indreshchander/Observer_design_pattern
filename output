@@ -1,0 +1,30 @@
++ Registering 14BmiCalculcator for notifications
++ Registering 18WaistToHeightRatio for notifications
+
+* Input data is feeded
+* input button is clicked, notifying all observers
+ > Inside BmiCalculator update, name:Ram, bmi:34
+ > Inside WaistToHeightRatio update, name:Ram, waistToHeight:22
+
+
+* Input data is feeded
+* input button is clicked, notifying all observers
+ > Inside BmiCalculator update, name:Mohan, bmi:26
+ > Inside WaistToHeightRatio update, name:Mohan, waistToHeight:19
+
+
+- un-registering 18WaistToHeightRatio for notifications
+
+
+* Input data is feeded
+* input button is clicked, notifying all observers
+ > Inside BmiCalculator update, name:Swati, bmi:27
+
+Printing BMI data:
+    Name:Swati, BMI:27
+    Name:Ram, BMI:34
+    Name:Mohan, BMI:26
+
+Printing Waist to height ratio data:
+    Name:Mohan, Weight to height ratio:19
+    Name:Ram, Weight to height ratio:22
